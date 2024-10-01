@@ -21,7 +21,6 @@ public class pertanyaan4 {
         member = input.nextLine();
         System.out.print("Metode pembayaran (qris/cash)  = ");
         payment_metode = input.nextLine();
-
         System.out.println("-------------------------");
         input.close();
         diskon = 0;
@@ -69,6 +68,5 @@ public class pertanyaan4 {
         }
         System.out.println("Total bayar  : " + final_payment);
         System.out.println("Metode bayar  : " + payment_metode);
-
     }
 }
